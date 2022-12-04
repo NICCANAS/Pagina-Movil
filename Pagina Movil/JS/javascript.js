@@ -1,0 +1,2 @@
+const QRcontent = document.getElementById('QRcontent');
+new QRCode(QRcontent, 'https://drive.google.com/u/1/uc?id=1njTxzNBieGLXJKMZ8Tb7IlJeltZXmYZB&export=download&confirm=t&uuid=21995422-5229-424b-8c2b-a617a0a0eaf6&at=AHV7M3fceWhWTPGWdGUlwaPPZuSx:1670080569374');
