@@ -1413,6 +1413,7 @@ a {
 
 }
 
+/* Responsividad iPhone SE */
 @media screen and (max-width: 414px) {
     .navbar_container {
         display: flex;
