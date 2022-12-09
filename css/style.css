@@ -1414,7 +1414,7 @@ a {
 }
 
 /* Responsividad iPhone SE */
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 667px) {
     .navbar_container {
         display: flex;
         max-width: 1400px;
@@ -1427,7 +1427,7 @@ a {
         -webkit-box-align: center;
         -webkit-align-items: center;
         -ms-flex-align: center;
-        align-items: center
+        align-items: center;
     }
 
     .nav-menu {
@@ -1437,7 +1437,6 @@ a {
         -webkit-align-items: center;
         -ms-flex-align: center;
         align-items: center;
-    
     }
 
     #logoPrinc{
@@ -1446,6 +1445,11 @@ a {
 
     #imgCar{
         display: none;
+    }
+
+    .IOS{
+        display: block;
+        margin: auto;
     }
 
     #botonrasca {
@@ -1471,6 +1475,28 @@ a {
         display: block;
         margin: auto;
         width: 45%;
+    }
+
+    #imgQR{
+        display: block;
+        margin: auto;
+    }
+
+    .header_nav__link {
+        display: block;
+        padding-right: 2vh;
+        padding-left: 10px;
+        color: #000;
+        font-size: 80%;
+        line-height: 18px;
+        font-weight: 600;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    #comienzoID{
+        display: block;
+        margin: auto;
     }
 
 }
